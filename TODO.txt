@@ -1,0 +1,28 @@
+	1. Sort out auto play of text
+	- Have a toggle on menu for autoplay on/off
+	- Store played markers.
+	- Change colour of changed markers
+	- Click will play marker again (if autoplay is on)
+
+
+	2. Tidy up the home page
+	- backgroud is a bit messy - how to make it look more professional.
+
+
+	3. Folow me 
+	- test it is working
+	- test auto play is triggered.
+	- turn off not follow, just need back to marker and follow me?
+
+4. Tidy up the KML files.
+	Pictures etc.
+	Can video be embedded?
+	Can links/audio be embedded?
+
+						5. Help page?
+
+	6. Tidy splash screen
+
+5. Non standard icon replacement.
+
+6. Check for new KML and download if newer otherwise use local.
