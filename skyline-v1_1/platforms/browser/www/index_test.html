@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta charset="utf-8">
+		<title>Skyline</title>
+		
+		<!-- Core assets -->
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+		<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />			
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/BSSWLeaflet.css" /> 
+		<link rel="stylesheet" href="LocatePlugin/dist/L.Control.Locate.min.css" /> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>   			
+		<script src="js/BSSWLeaflet.js"></script>	 		
+		<script src="LocatePlugin/dist/L.Control.Locate.min.js"></script>	 		
+		<script src="cordova.js"></script>		
+	</head>
+	<body class= "with-canvas">
+		<div data-role="page" id="main-page">	
+				<div class="welcomeheader">				
+				</div>
+				<div class="welcomemessage" id="welcomemessage">
+					<div class="welcomecenter" id="welcomecenter">
+						<p><h1>Welcome to the Bristol South Skyline Walk</h1></p>
+						<p><h2>Start your journey of discovery</h2></p>
+						<p><h2>Select one of our walks below</h2></p>
+					</div>
+				</div>			
+		</div>
+	</body>
+	
+	<script>
+		$(window).load(function()
+	{
+		centerContent();
+	});
+
+	$(window).resize(function()
+	{
+		centerContent();
+	});
+
+	function centerContent()
+	{
+		console.log("centre");
+		var container = $('#welcomemessage');
+		var content = $('#welcomecenter');
+		$('#welcomecenter').css("left", (container.width()-content.width())/2);
+		$('#welcomecenter').css("top", (container.height()-content.height())/2);
+	}
+	</script>
+</html>

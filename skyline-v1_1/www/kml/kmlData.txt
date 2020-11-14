@@ -1,0 +1,24 @@
+[{
+	"routeName": "Bristol South Skyline Walk - Long",	
+	"kmlFileGroupName": "Bristol South Skyline Walk - BSSW",
+	"routeDescription": "Enjoy the long walk",
+	"routeImage":"LongWalk.png",
+	"categories":[
+					{"name":"Route","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=Route"},
+					{"name":"Viewpoints","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=Viewpoints"},
+					{"name":"Bus\/Train Stops","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=BusTrainStops"},
+					{"name":"Points of Interest","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=PointsofInterest"},
+					{"name":"Directions","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=Directions"}
+					]
+}, {
+	"routeName": "Bristol South Skyline Walk - Short",
+	"kmlFileGroupName": "Bristol South Skyline Walk 2 - BSSW2",
+	"routeDescription": "Enjoy the short walk",
+	"routeImage":"ShortWalk.png",
+	"categories":[
+			{"name":"Route","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=Route"},
+			{"name":"Viewpoints","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=Viewpoints"},
+			{"name":"Bus\/Train Stops","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=BusTrainStops"},
+			{"name":"Points of Interest","url":"\/skyline\/get-kml-file.php?kml_filename=bsswLong.kml&folder=PointsofInterest"}			
+			]
+}]

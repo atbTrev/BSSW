@@ -1,0 +1,16 @@
+{
+  "name": "Bristol South Skyline Walk",
+  "version": "1.1.0",
+  "description": "Guided Walks For Bristol South Skyline Walk",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://myorg@bitbucket.org/teamname/my-app.git"
+  },
+  "author": "BSSQ",
+  "license": "ISC",
+  "homepage": "https://bssw.org.uk"
+}

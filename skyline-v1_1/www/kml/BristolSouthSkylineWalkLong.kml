@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bristol South Skyline Walk - Long</name>
+    <description>Discover the stunning views of the Bristol skyline with this trail across South Bristol.  More info can be found at www.bssw.org.uk</description>
+    <Style id="icon-1403-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1403-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1403-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1403-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1403-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1423-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1423-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1423-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1423-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1423-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1459-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1459-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1459-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1459-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1459-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1469-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1469-trans-walking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1469-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1469-trans-walking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1469">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1469-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1469-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-777777-2550-nodesc-normal">
+      <LineStyle>
+        <color>ff777777</color>
+        <width>2.55</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-777777-2550-nodesc-highlight">
+      <LineStyle>
+        <color>ff777777</color>
+        <width>3.825</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-777777-2550-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-777777-2550-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-777777-2550-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-4488-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-4100-nodesc-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>4.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A61B4A-4100-nodesc-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>6.15</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-4100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-4100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-4100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A61B4A-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-4488-nodesc-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A61B4A-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A61B4A-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A61B4A-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A61B4A-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff4a1ba6</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A61B4A-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A61B4A-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A61B4A-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Route</name>
+      <Placemark>
+        <name>The Bommie to Novers</name>
+        <styleUrl>#line-A61B4A-4100-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5814116,51.4327618,0
+            -2.5827098,51.431919,0
+            -2.5827205,51.4316782,0
+            -2.5825703,51.4316114,0
+            -2.5825381,51.431491,0
+            -2.5827098,51.4314241,0
+            -2.5828171,51.4312702,0
+            -2.5828493,51.4309625,0
+            -2.5842762,51.4310361,0
+            -2.5844908,51.431016,0
+            -2.5846329,51.430991,0
+            -2.5845203,51.4306298,0
+            -2.5852096,51.4304659,0
+            -2.5853035,51.4305445,0
+            -2.5856709,51.4303555,0
+            -2.5858453,51.4304793,0
+            -2.5859874,51.4305846,0
+            -2.5860867,51.4307602,0
+            -2.5861591,51.4310144,0
+            -2.5862181,51.4311933,0
+            -2.5864005,51.4318421,0
+            -2.5864193,51.4319266,0
+            -2.5865092,51.4322564,0
+            -2.5865917,51.4324849,0
+            -2.5868673,51.4329709,0
+            -2.5876907,51.4323789,0
+            -2.5883693,51.4319567,0
+            -2.5887032,51.4316987,0
+            -2.5889513,51.4315512,0
+            -2.5895038,51.4313939,0
+            -2.5901904,51.4314424,0
+            -2.5910568,51.4310094,0
+            -2.5909888,51.4306599,0
+            -2.5903539,51.4305052,0
+            -2.5900839,51.4302435,0
+            -2.5905792,51.4303848,0
+            -2.5909888,51.4306599,0
+            -2.5914497,51.4306415,0
+            -2.591834,51.4303513,0
+            -2.5941065,51.4302217,0
+            -2.5941494,51.4301364,0
+            -2.5943854,51.4301114,0
+            -2.5946349,51.4300829,0
+            -2.5946751,51.4301264,0
+            -2.5948387,51.4301749,0
+            -2.5950158,51.4301599,0
+            -2.5951713,51.4300311,0
+            -2.595284,51.4298823,0
+            -2.5953564,51.4297869,0
+            -2.5956219,51.4296448,0
+            -2.5959384,51.4294157,0
+            -2.5960833,51.4292384,0
+            -2.596086,51.4291347,0
+            -2.5962174,51.4290561,0
+            -2.5965419,51.4288621,0
+            -2.5971642,51.4284123,0
+            -2.597301,51.4284842,0
+            -2.5974002,51.4284909,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Novers to Victoria Park</name>
+        <styleUrl>#line-A61B4A-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5974002,51.4284909,0
+            -2.5981379,51.4285812,0
+            -2.5987816,51.4289692,0
+            -2.599318,51.4294374,0
+            -2.6000905,51.4301465,0
+            -2.600112,51.4302936,0
+            -2.6004767,51.4303605,0
+            -2.6001334,51.430802,0
+            -2.5998116,51.4313505,0
+            -2.5995111,51.431792,0
+            -2.5995111,51.432822,0
+            -2.5987172,51.432822,0
+            -2.5987387,51.4332769,0
+            -2.5987387,51.4338387,0
+            -2.5984597,51.4344407,0
+            -2.5984088,51.4355994,0
+            -2.5986334,51.4355982,0
+            -2.5986381,51.4356454,0
+            -2.5988245,51.4357382,0
+            -2.5987494,51.4362331,0
+            -2.598685,51.436514,0
+            -2.5985885,51.436591,0
+            -2.5987481,51.4367791,0
+            -2.5986777,51.4368598,0
+            -2.5986904,51.4369555,0
+            -2.598744,51.4370491,0
+            -2.5980037,51.4375072,0
+            -2.5974888,51.4379888,0
+            -2.5972903,51.4381685,0
+            -2.5970221,51.4383332,0
+            -2.5968772,51.4385439,0
+            -2.596609,51.4387646,0
+            -2.5963998,51.4388013,0
+            -2.5962281,51.4389585,0
+            -2.5957829,51.4393196,0
+            -2.5952357,51.4397744,0
+            -2.5950801,51.4397945,0
+            -2.5949353,51.4397644,0
+            -2.5948656,51.4398379,0
+            -2.5947744,51.4399249,0
+            -2.5923657,51.4403027,0
+            -2.5921404,51.4404131,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Victoria Park to St Luke's Lane]]></name>
+        <styleUrl>#line-A61B4A-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5921404,51.4404131,0
+            -2.5918776,51.4404632,0
+            -2.5914752,51.4405034,0
+            -2.5909925,51.4405869,0
+            -2.5902146,51.4406304,0
+            -2.5887018,51.4409146,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>St Lukes Road to Temple Meads</name>
+        <styleUrl>#line-795046-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.584747,51.4431307,0
+            -2.5845659,51.443409,0
+            -2.5847805,51.4438704,0
+            -2.5848341,51.4443185,0
+            -2.5847268,51.4446528,0
+            -2.584523,51.44482,0
+            -2.5845551,51.4450607,0
+            -2.5850487,51.4454084,0
+            -2.585628,51.4458698,0
+            -2.5845444,51.4463646,0
+            -2.5837076,51.4468327,0
+            -2.58286,51.4472941,0
+            -2.5827205,51.4473141,0
+            -2.5825703,51.4474546,0
+            -2.5823665,51.4476485,0
+            -2.5822806,51.4477956,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wheeled Access Alternative</name>
+        <styleUrl>#line-795046-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5753927,51.4381994,0
+            -2.5788099,51.4367448,0
+            -2.5800705,51.4366211,0
+            -2.5817871,51.4369956,0
+            -2.5839329,51.4376911,0
+            -2.5843191,51.4375039,0
+            -2.5857353,51.4379319,0
+            -2.5867224,51.4383064,0
+            -2.5885677,51.439002,0
+            -2.5898552,51.4396975,0
+            -2.5893402,51.4400453,0
+            -2.5896835,51.4404465,0
+            -2.5887018,51.4409146,0
+            -2.5879669,51.4414229,0
+            -2.5873017,51.4418576,0
+            -2.586937,51.4420849,0
+            -2.5864327,51.4423457,0
+            -2.5857031,51.4426667,0
+            -2.5854242,51.4428005,0
+            -2.5848877,51.4428607,0
+            -2.584747,51.4431307,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wheeled Access Alternative</name>
+        <styleUrl>#line-795046-4488-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5822806,51.4477956,0
+            -2.5806284,51.4469196,0
+            -2.5793409,51.4459032,0
+            -2.5785685,51.4446595,0
+            -2.5783539,51.4434157,0
+            -2.5780964,51.4423992,0
+            -2.577796,51.4417439,0
+            -2.5769591,51.4415433,0
+            -2.5755429,51.4409949,0
+            -2.5739765,51.4402593,0
+            -2.5728178,51.4390856,0
+            -2.5752639,51.4381794,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Dry alternative in wet weather</name>
+        <styleUrl>#line-777777-2550-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5814116,51.4327618,0
+            -2.5823879,51.4324608,0
+            -2.5831819,51.4319926,0
+            -2.5835681,51.4319391,0
+            -2.5839543,51.4319659,0
+            -2.584641,51.4320863,0
+            -2.585113,51.4320863,0
+            -2.5849628,51.4317384,0
+            -2.5847697,51.431297,0
+            -2.5846329,51.430991,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Temple Meads to Arnos Vale 2</name>
+        <styleUrl>#line-A61B4A-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5822806,51.4477956,0
+            -2.5812721,51.4481767,0
+            -2.5794911,51.4484308,0
+            -2.5785899,51.4483706,0
+            -2.5781822,51.4483773,0
+            -2.5778925,51.4481901,0
+            -2.5775063,51.4479026,0
+            -2.5769913,51.4476752,0
+            -2.5767767,51.4469731,0
+            -2.5768089,51.4464984,0
+            -2.5770128,51.4459233,0
+            -2.5771093,51.4455622,0
+            -2.5771308,51.4451075,0
+            -2.577045,51.444733,0
+            -2.5768304,51.4444723,0
+            -2.5762832,51.4440844,0
+            -2.5755537,51.4439105,0
+            -2.5747383,51.4437768,0
+            -2.5732148,51.4434959,0
+            -2.5725925,51.4433956,0
+            -2.571466,51.4432753,0
+            -2.5708973,51.4433154,0
+            -2.5702214,51.4434759,0
+            -2.5689018,51.443837,0
+            -2.5681937,51.4440376,0
+            -2.5674748,51.4442315,0
+            -2.5667346,51.4444656,0
+            -2.5662839,51.4446862,0
+            -2.5651145,51.4448802,0
+            -2.5643635,51.4450139,0
+            -2.5632691,51.4451142,0
+            -2.5630867,51.4451008,0
+            -2.5632155,51.4445124,0
+            -2.5633335,51.4435561,0
+            -2.5631082,51.4435294,0
+            -2.5638378,51.4423524,0
+            -2.5645137,51.4424594,0
+            -2.5645781,51.4423457,0
+            -2.5682099,51.4416168,0
+            -2.5692747,51.440811,0
+            -2.5699532,51.4396841,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arnos Court Park to Redcatch Park</name>
+        <styleUrl>#line-A61B4A-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5633094,51.4398162,0
+            -2.5629821,51.4387913,0
+            -2.5627059,51.4381794,0
+            -2.5628158,51.4380356,0
+            -2.5629339,51.4378851,0
+            -2.5629688,51.4377513,0
+            -2.5630277,51.437641,0
+            -2.5633013,51.4371193,0
+            -2.5639638,51.4365458,0
+            -2.5645807,51.436081,0
+            -2.5650394,51.4360827,0
+            -2.5652406,51.4360559,0
+            -2.5658333,51.43578,0
+            -2.5664824,51.4354473,0
+            -2.5668311,51.4352567,0
+            -2.5672013,51.4350961,0
+            -2.5669545,51.4348721,0
+            -2.5670671,51.4348219,0
+            -2.5668204,51.4345677,0
+            -2.5666648,51.4343303,0
+            -2.566933,51.4341598,0
+            -2.5673729,51.4339892,0
+            -2.5680542,51.4337584,0
+            -2.5714177,51.4328321,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 25</name>
+        <styleUrl>#line-A61B4A-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5714177,51.4328321,0
+            -2.5717127,51.4334909,0
+            -2.5718093,51.4339056,0
+            -2.5720453,51.4351898,0
+            -2.5720882,51.4353904,0
+            -2.5725389,51.4354707,0
+            -2.5753927,51.4381994,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Arnos Vale non-wheeled path to Arnos Court Park</name>
+        <styleUrl>#line-A61B4A-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5699532,51.4396841,0
+            -2.5698137,51.4392026,0
+            -2.5684619,51.4392427,0
+            -2.5667882,51.4392829,0
+            -2.5656885,51.4392628,0
+            -2.5654149,51.4392294,0
+            -2.5651145,51.4392427,0
+            -2.5646693,51.4393196,0
+            -2.564342,51.4393999,0
+            -2.5643098,51.4394676,0
+            -2.5642522,51.439501,0
+            -2.5641046,51.4395479,0
+            -2.5640161,51.439598,0
+            -2.5638632,51.4396833,0
+            -2.5637372,51.4397493,0
+            -2.5636272,51.4398154,0
+            -2.5634904,51.4398296,0
+            -2.5633147,51.4398229,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Perrets Park to The Bommie</name>
+        <styleUrl>#line-A61B4A-4488-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5788099,51.4367448,0
+            -2.5790834,51.4362866,0
+            -2.5796628,51.4360592,0
+            -2.580328,51.4357783,0
+            -2.5806284,51.4356713,0
+            -2.5807759,51.4355994,0
+            -2.5804138,51.4353235,0
+            -2.580049,51.4350159,0
+            -2.5802851,51.4346213,0
+            -2.5805855,51.4342266,0
+            -2.5811327,51.4334708,0
+            -2.5813043,51.4332702,0
+            -2.5812346,51.4331364,0
+            -2.5810844,51.4330461,0
+            -2.5814116,51.4327618,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Viewpoints</name>
+      <Placemark>
+        <name>The Bommie Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5815671,51.4328873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Barnabus Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5828493,51.4309625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnos Value Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5632691,51.439965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nover's Lookout]]></name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5972232,51.4286147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Park Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5869799,51.4423992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Withleigth Road Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5632665,51.4371043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kenmare Rd Loookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5899785,51.4302435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Perret's Park Lookout]]></name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5771094,51.4379854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bus/Train Stops</name>
+      <Placemark>
+        <name>Train Stop</name>
+        <styleUrl>#icon-1459-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5812936,51.4491395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus Stop</name>
+        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5735152,51.4401255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Stop</name>
+        <styleUrl>#icon-1459-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5940931,51.4402191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus Stop</name>
+        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5980306,51.4360091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Points of Interest</name>
+      <Placemark>
+        <name>Sparke Evans Park</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/TmzFbUJlZiLNdfgnv08vn_nSCoanm9NwEYDQFjkBpumpogO3dQoqyhzVL-CJIwGroz5SBe0YkDQAXV7qjuBLK0UqRIsZS0nqAikMKSMhI9YC5FAcRuKvoBEEGN9no-2p_6Zo" height="200" width="auto" /><br><br>Sparke Evans Park was donated to the people of Bristol in 1902 by two local tannery owners. There is a shelter to the left of the Park dating from 1925.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/TmzFbUJlZiLNdfgnv08vn_nSCoanm9NwEYDQFjkBpumpogO3dQoqyhzVL-CJIwGroz5SBe0YkDQAXV7qjuBLK0UqRIsZS0nqAikMKSMhI9YC5FAcRuKvoBEEGN9no-2p_6Zo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5641275,51.4451141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St Philips Marsh</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/O0FZRNWJ1PBANrxkMCXhbwQSj25upWVMQenSjcaBJMisRswOyy6WVj7Ryd68F79uMus6S7XT021qs3GgU0vZkK98-qf5rdGlHH_toffxrS6ahEIeL2S_M85XWURWWPmFxa1r" height="200" width="auto" /><br><br>St Phillips Marsh, originally a residential area in the<br>19th Century, was cleared of the majority of housing<br>in 1930s and 1950s, and has been used by industry,<br>markets, showrooms and the railway]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/O0FZRNWJ1PBANrxkMCXhbwQSj25upWVMQenSjcaBJMisRswOyy6WVj7Ryd68F79uMus6S7XT021qs3GgU0vZkK98-qf5rdGlHH_toffxrS6ahEIeL2S_M85XWURWWPmFxa1r</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5755215,51.4442182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banana Bridge</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/dtMABrdDSb7cPwYjz1svlioFW2xorn6_zriPikvuwdh5EABGdTGSsKPXWqHB1XncXR4LNqJNkYUvRyy9xImO5dUhfZzoNYSWuslGG1Wl2rrsBGcaZLPZnWLM9BudYXTW53xfVNs" height="200" width="auto" /><br><br>The Banana Bridge was originally used as a temporary<br>bridge elsehwere but floated by barge to this location<br>in the 1880’s. It is painted yellow because called the<br>Banana Bridge.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/dtMABrdDSb7cPwYjz1svlioFW2xorn6_zriPikvuwdh5EABGdTGSsKPXWqHB1XncXR4LNqJNkYUvRyy9xImO5dUhfZzoNYSWuslGG1Wl2rrsBGcaZLPZnWLM9BudYXTW53xfVNs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5853062,51.4456625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Avon</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/EvAfZslFjwRjNdWq2KMD7aqlpzwvrGSVUbECHvJ6ywo2_8cFEf92RD2EU6sSshVU2iEBRdvY-LtEcZxztQyB1lccNx7Ne5ug0Twnl3IxxwbxZlkSyTye0EOU-ibKcVypbK-0" height="200" width="auto" /><br><br>River Avon – flows from Wiltshire to the River Severn.<br>Along the way it passes through Bath before arriving<br>here in Bristol. At this point it is known as the Cut (or<br>New Cut) due to the route of the river being diverted<br>in 1809. It is tidal so will have muddy banks at points<br>during the day]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/EvAfZslFjwRjNdWq2KMD7aqlpzwvrGSVUbECHvJ6ywo2_8cFEf92RD2EU6sSshVU2iEBRdvY-LtEcZxztQyB1lccNx7Ne5ug0Twnl3IxxwbxZlkSyTye0EOU-ibKcVypbK-0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5830209,51.4468728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnos Vale Cemetary</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/29LnWK3vf9gDY8s8fAbGYhoN2ZH1AW23HHdCVDNooQJZS1RcZr4COcFV-_xayHxh7SOeKeERdXfozwB2AbKQl38BmMsK7LethBGQX98YLgZM9jV8BDfpRU60_KQ9nUHg6xD3MTM" height="200" width="auto" /><br><br>Arnos Vale was opened in 1939 and extended several times until 1891. A place of remembrance for more than 300,000 individuals over 175 years.<br>Highlights: <br>Soldiers Corner - Memorial and graves of 239 soldiers who dies in Bristol of injuries in WWI.<br>Memorial to Rajh Rammohn Roy - known around the world as the "Father of Modern India"<br>Sisters of Charity - community graves for Order of nuns from Bedminster.<br>Cross of Sacrifice  and sailors Corner - commemorates servicemen and women killed in WWII]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/29LnWK3vf9gDY8s8fAbGYhoN2ZH1AW23HHdCVDNooQJZS1RcZr4COcFV-_xayHxh7SOeKeERdXfozwB2AbKQl38BmMsK7LethBGQX98YLgZM9jV8BDfpRU60_KQ9nUHg6xD3MTM</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5652647,51.4421585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arnos Court Park</name>
+        <description><![CDATA[Once Private Land opened as a Park in 1960. Arnos Court Mansion which was never a mansion, was built in the 1760's by the Quaker William Reeves. Now Arnos Court Hotel.<br>There is a giant sequoia tree at the top of the hill planted not long after the species was imported into the UK in the 1850s.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5631807,51.4392812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broadwalk Shopping Centre</name>
+        <description>Car park, shops and other facilities.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.567668,51.4346146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redcatch Park</name>
+        <description><![CDATA[Originally farmland, then allotments. Became a park in the 1930s. Air raid shelters in WWII - now removed. Cafe most weekdays and Saturday.<br>Find artwork on the buildings by local artists.  ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5712729,51.4336247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perrets Park</name>
+        <description><![CDATA[Opened in 1932, named after a local councillor<br>Human Sundial mosaic added in 2012. Stand in the middle and your shadow will tell the time.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5758648,51.4383867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Northern Slopes</name>
+        <description><![CDATA[The Slopes are four areas of green open space situated 3 kilometres to the south of the centre of Bristol in England, United Kingdom.<br>There is a medieval water pipe (c.1190) runs from springs in the allotments to the left to central Bristol. The route of the pipe is walked every year by St Mary Redcliffe Church. <br><br>During WWII a bomb nicknamed "Satan" was dropped on houses on Stockwood Cresent.  It failed to explode and was paraded through the streets of London during VE day. ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5817442,51.4329157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[St John's Burial Ground]]></name>
+        <description>Donated by the Smyths of Ashton Court in 1859 as a burial ground. Still owned by the Church of England as a burial ground, bu no burials now take place.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5983524,51.4367949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malago Greenway</name>
+        <description>Once surrounded by industrial area with tanneries, mills and factories. The river was put into the current route after flooding in 1880.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5972366,51.4379988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Park</name>
+        <description><![CDATA[In a 1871 report, "The Cry of the Poor" pleaded with he authorities to turn the land into a park and eventually the park opened in 1891. <br>The water maze was built in 1894 to signify where a new sewer crosses the medieval pipe from the Northern Slopes. The design is hte same as the Maze Boss on St Mary Redcliffe Church. ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.591722,51.4407943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Directions</name>
+      <Placemark>
+        <name>Directions From Spark Evans Park</name>
+        <description>Cross the river on the footbridge and continue to meet the main road. Turn right in front of Bristol Blue Glass and cross the road at the pedestrian crossing. Enter Arnos Vale Cemetry</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5630867,51.4451008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Arnos Vale Cemetry Top</name>
+        <description>At the top of the hill continue past the building at entrance and follow the path as it curves round to the left. Contine past the cenotaph to join a track that takes you to the edge of the cemetary.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5699532,51.4396841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Arnos Court Park</name>
+        <description>Exit the cemetary, you will find the first lookout here. Head right on leaving the lookout down the hill to join a path that heads up again. Fork right halfway up the hill to find the exit onto Whigfield Rd. On exiting the park, turn around to find the second lookout.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5638632,51.4396833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Marksbury Rd</name>
+        <description>Turn right onto Markbury road then in 20 metres turn left into  Marksbury road open space </description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5994977,51.4328087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Redcatch Park</name>
+        <description>Ignore the first entrance you find and continue to the main entrance to Redcatch Park.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.569406,51.4333437,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions from Temple Meads</name>
+        <description>Exit the main station and continue down the ramp to the main road. Turn left on the main road (Temple Gate) . Then turn left again on Cattle Market Road and continue under the tunnel below the station.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5811648,51.4495608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Exit Perretts Park</name>
+        <description>Exit the park and continue along the pavement to the roundabout. Take the second exit onto Ravenhill Avenue </description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.578075,51.4372096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Broadwalk</name>
+        <description>Cross at the pedestrian crossing and turn left. Turn right after the shopping centre and continue down Broad Walk.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5670993,51.4351162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Novers Steps Bottom</name>
+        <description>At the bottom of Novers Steps, cross the road and enter park opposite following the Malago Greenway signs.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.6000851,51.4301381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions St Johns Lane</name>
+        <description>Exit the park and cross at the pedestrian crossing. Continue on Francis Road to another crossing.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5984034,51.4355693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions St Barnabas</name>
+        <description>Follow the field westwards to find a slighly steep slope down to WedmoreVale</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5829672,51.4309893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions from Arnos Court Park</name>
+        <description>On leaving the viewpoint, turn right at then end of Withleigth Road and follow Greenmore Road past the bank to join the main road.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5635052,51.4370625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Stockwood Crescent</name>
+        <description>Look out for an alley way between two hedges which leads to the entrance of the Northen Slopes</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5811005,51.4331565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions The Bommie</name>
+        <description>On leaving the viewpoint, head down the hill in the direction of St Barnabus Church. You will find a path through the trees, heading right across a small stream. Continue up the hill to the viewpoint in front of the Church.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5814867,51.4327083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Wedmore Vale</name>
+        <description>Head up Wedmore value for 50 meters looking out for a track on the opposite side of the road. </description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5844908,51.431016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Arnos Vale Cemetry</name>
+        <description>On entering the cemetery the route follows the road up the hill to the right past Soldiers Corner. If you want to divert to the cafe\toilets turn right, but do not go up the hill. The cafe is a very short diversion and signposted.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5645781,51.4423457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Perrets Park</name>
+        <description>Enter Perretts Park and turn left following the path along the top of hill. Look out for the panorama interpreting the views of the city.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5751352,51.4385204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Redcatch Road</name>
+        <description>Turn left up the hill on Redcatch Road. Find a save place to cross and take stockwood crescent on the opposite side of the road.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5804782,51.4358318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions along the River</name>
+        <description>After exiting the tunnel, look for a path on the right hand side  just past the bridge. This will take you on a cycle/pedestrian path next to the river. Follow this for approximately 1 mile to Spark Evans Park.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5793409,51.4484442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Exit Redcatch Park</name>
+        <description>Exit the park and cross safely. Enter Bayham road opposite the park entrance a little to your left.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5719595,51.4355911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Kenmare</name>
+        <description>Follow the paved path round to the right. Continue until you see the exit at the end of the path.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5855207,51.4304943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions - Cavan</name>
+        <description>Turn left at the bottom of the path, following the paved path,  heading slightly uphill through the trees.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5868673,51.4329709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions - Exit Cavan</name>
+        <description>Continue past the exit up the hill to find the Cloverdown Lookout. Return to this exit to leave the park onto Cavan Walk</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5909764,51.4307418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Cavan Walk</name>
+        <description>Continue across the junction onto Clonmel road and enter the Health Park through the gate</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5928324,51.4303003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Health Park</name>
+        <description>Once in the health park, turn right follow the path to your right.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5946322,51.4300863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Health Park Building</name>
+        <description>Go through the gate behind the Health Park Building and follow the path.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5960726,51.4291581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Novers Steps</name>
+        <description>Exit the health park onto Novers Steps. You can view the city throgh a gap in the hedge to your right.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5971347,51.4284441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions windmill hill</name>
+        <description>Cross Windmill Hill onto Fraser St. Continue up the hill and enter Victoria Park where Fraser St bends to the right.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.594946,51.4397878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park</name>
+        <description>Enter Victoria Park and take the paved path up the hill.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5923121,51.4402894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park</name>
+        <description>You will find a cafe and toilets up the hill to your right, otherwise continue straight on passing the school. After the school you will find a panorama interpreting the victoria Park Viewpoint.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.590971,51.4405502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park View Point</name>
+        <description>After the viewpoint, contrinue down the hill and exit the park by the basketball court.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5867921,51.4421819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions St Lukes Road</name>
+        <description>Exit the park, turn left under the bridge. Continue to the end of the road.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5846303,51.443516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Banana Bridge</name>
+        <description>Cross the main road and use the Banana bridge to cross the river. Turn right after the bridge.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5849736,51.4454151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Temple Gate</name>
+        <description>Cross at the pedestrian crossing to join the start of the walk. We hope you enjoyed it.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5826829,51.4473408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Orchard</name>
+        <description>Cross the road, turn left and join the Malago Greenway path along side the river.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5986743,51.4365424,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

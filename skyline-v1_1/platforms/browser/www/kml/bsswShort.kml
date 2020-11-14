@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Bristol South Skyline Walk - BSSW</name>
+		<description><![CDATA[Discover the stunning views of the Bristol skyline with this trail across South Bristol.  More info can be found at www.bssw.org.uk]]></description>
+		<Folder>
+			<name>Route</name>
+			<Placemark>
+				<name>The Bommie to Novers</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5814116,51.4327618,0.0 -2.5827098,51.431919,0.0 -2.5827205,51.4316782,0.0 -2.5825703,51.4316114,0.0 -2.5825381,51.431491,0.0 -2.5827098,51.4314241,0.0 -2.5828171,51.4312702,0.0 -2.5828493,51.4309625,0.0 -2.5842762,51.4310361,0.0 -2.5844908,51.431016,0.0 -2.5846329,51.430991,0.0 -2.5845203,51.430629800000006,0.0 -2.5852096,51.4304659,0.0 -2.5853035,51.4305445,0.0 -2.5856709,51.4303555,0.0 -2.5858453,51.4304793,0.0 -2.5859874,51.43058460000001,0.0 -2.5860867,51.43076020000001,0.0 -2.5861591,51.4310144,0.0 -2.5862181,51.4311933,0.0 -2.5864005,51.4318421,0.0 -2.5864193,51.4319266,0.0 -2.5865092,51.4322564,0.0 -2.5865917,51.4324849,0.0 -2.5868673,51.4329709,0.0 -2.5876907,51.4323789,0.0 -2.5883693,51.4319567,0.0 -2.5887032,51.4316987,0.0 -2.5889513,51.4315512,0.0 -2.5895038,51.4313939,0.0 -2.5901904,51.4314424,0.0 -2.5910568,51.4310094,0.0 -2.5909888,51.4306599,0.0 -2.5903539,51.4305052,0.0 -2.5900839,51.4302435,0.0 -2.5905792,51.4303848,0.0 -2.5909888,51.4306599,0.0 -2.5914497,51.4306415,0.0 -2.591834,51.4303513,0.0 -2.5941065,51.430221700000004,0.0 -2.5941494,51.4301364,0.0 -2.5943854,51.4301114,0.0 -2.5946349,51.4300829,0.0 -2.5946751000000003,51.4301264,0.0 -2.5948387,51.430174900000004,0.0 -2.5950158,51.4301599,0.0 -2.5951713,51.4300311,0.0 -2.595284,51.4298823,0.0 -2.5953564,51.4297869,0.0 -2.5956219,51.4296448,0.0 -2.5959384,51.4294157,0.0 -2.5960833,51.4292384,0.0 -2.596086,51.429134700000006,0.0 -2.5962174,51.4290561,0.0 -2.5965419,51.4288621,0.0 -2.5971642,51.4284123,0.0 -2.597301,51.4284842,0.0 -2.5974002,51.4284909,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Novers to Victoria Park</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5974002,51.4284909,0.0 -2.5981379,51.4285812,0.0 -2.5987816,51.4289692,0.0 -2.599318,51.4294374,0.0 -2.6000905,51.4301465,0.0 -2.6001120000000006,51.4302936,0.0 -2.6004767,51.4303605,0.0 -2.6001334,51.43080200000001,0.0 -2.5998116,51.4313505,0.0 -2.5995111000000004,51.431792,0.0 -2.5995111000000004,51.432822,0.0 -2.5987172,51.432822,0.0 -2.5987387,51.4332769,0.0 -2.5987387,51.4338387,0.0 -2.5984597,51.4344407,0.0 -2.5984088,51.4355994,0.0 -2.5986334,51.4355982,0.0 -2.5986381,51.4356454,0.0 -2.5988245,51.43573820000001,0.0 -2.5987494,51.4362331,0.0 -2.598685,51.436514,0.0 -2.5985885,51.436591,0.0 -2.5987481,51.4367791,0.0 -2.5986777,51.4368598,0.0 -2.5986904000000006,51.4369555,0.0 -2.598744,51.4370491,0.0 -2.5980037,51.4375072,0.0 -2.5974888,51.4379888,0.0 -2.5972903,51.4381685,0.0 -2.5970221,51.4383332,0.0 -2.5968772,51.4385439,0.0 -2.596609,51.4387646,0.0 -2.5963998,51.4388013,0.0 -2.5962281,51.4389585,0.0 -2.5957829,51.4393196,0.0 -2.5952357,51.439774400000005,0.0 -2.5950801,51.439794500000005,0.0 -2.5949353,51.4397644,0.0 -2.5948656,51.4398379,0.0 -2.5947744,51.4399249,0.0 -2.5923657,51.4403027,0.0 -2.5921404,51.4404131,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Victoria Park to St Luke's Lane</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5921404,51.4404131,0.0 -2.5918776,51.44046320000001,0.0 -2.5914752,51.4405034,0.0 -2.5909925,51.4405869,0.0 -2.5902146,51.4406304,0.0 -2.5887018,51.4409146,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>St Lukes Road to Temple Meads</name>
+				<styleUrl>#line-795046-3-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.584747,51.443130700000005,0.0 -2.5845659,51.44340900000001,0.0 -2.5847805,51.4438704,0.0 -2.5848341,51.4443185,0.0 -2.5847268000000003,51.4446528,0.0 -2.584523,51.44482,0.0 -2.5845551,51.4450607,0.0 -2.5850487000000006,51.4454084,0.0 -2.585628,51.4458698,0.0 -2.5845444,51.4463646,0.0 -2.5837076,51.4468327,0.0 -2.58286,51.4472941,0.0 -2.5827205,51.4473141,0.0 -2.5825703,51.4474546,0.0 -2.5823665,51.4476485,0.0 -2.5822806,51.4477956,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Wheeled Access Alternative</name>
+				<styleUrl>#line-795046-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5753927,51.4381994,0.0 -2.5788099,51.4367448,0.0 -2.5800705,51.4366211,0.0 -2.5817871,51.43699560000001,0.0 -2.5839329,51.4376911,0.0 -2.5843191,51.4375039,0.0 -2.5857353,51.4379319,0.0 -2.5867224,51.4383064,0.0 -2.5885677,51.439002,0.0 -2.5898552,51.4396975,0.0 -2.5893402,51.4400453,0.0 -2.5896835,51.4404465,0.0 -2.5887018,51.4409146,0.0 -2.5879669,51.4414229,0.0 -2.5873017,51.4418576,0.0 -2.586937,51.4420849,0.0 -2.5864327,51.4423457,0.0 -2.5857031,51.4426667,0.0 -2.5854242,51.4428005,0.0 -2.5848877,51.4428607,0.0 -2.584747,51.443130700000005,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Wheeled Access Alternative</name>
+				<styleUrl>#line-795046-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5822806,51.4477956,0.0 -2.5806284,51.44691960000001,0.0 -2.5793409000000005,51.4459032,0.0 -2.5785685,51.4446595,0.0 -2.5783539,51.4434157,0.0 -2.5780964,51.4423992,0.0 -2.577796,51.441743900000006,0.0 -2.5769591,51.4415433,0.0 -2.5755429,51.4409949,0.0 -2.5739765,51.4402593,0.0 -2.5728178000000006,51.4390856,0.0 -2.5752639,51.4381794,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Dry alternative in wet weather</name>
+				<styleUrl>#line-777777-2-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5814116,51.4327618,0.0 -2.5823879,51.4324608,0.0 -2.5831819,51.4319926,0.0 -2.5835681,51.4319391,0.0 -2.5839543,51.4319659,0.0 -2.584641,51.4320863,0.0 -2.585113,51.4320863,0.0 -2.5849628,51.4317384,0.0 -2.5847697,51.431297,0.0 -2.5846329,51.430991,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Temple Meads to Arnos Vale 2</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5822806,51.4477956,0.0 -2.5812721,51.4481767,0.0 -2.5794911,51.4484308,0.0 -2.5785899,51.4483706,0.0 -2.5781822,51.4483773,0.0 -2.5778925,51.4481901,0.0 -2.5775063,51.4479026,0.0 -2.5769913,51.4476752,0.0 -2.5767767000000004,51.4469731,0.0 -2.5768089,51.4464984,0.0 -2.5770128,51.4459233,0.0 -2.5771093,51.4455622,0.0 -2.5771308,51.4451075,0.0 -2.577045,51.444733,0.0 -2.5768304,51.44447230000001,0.0 -2.5762832,51.4440844,0.0 -2.5755537,51.4439105,0.0 -2.5747383,51.4437768,0.0 -2.5732148,51.4434959,0.0 -2.5725925,51.4433956,0.0 -2.571466,51.4432753,0.0 -2.5708973,51.4433154,0.0 -2.5702214,51.4434759,0.0 -2.5689018,51.443837,0.0 -2.5681937,51.4440376,0.0 -2.5674748,51.4442315,0.0 -2.5667346,51.4444656,0.0 -2.5662839000000006,51.4446862,0.0 -2.5651145,51.4448802,0.0 -2.5643635,51.4450139,0.0 -2.5632691,51.4451142,0.0 -2.5630867,51.445100800000006,0.0 -2.5632155,51.4445124,0.0 -2.5633335,51.4435561,0.0 -2.5631082,51.4435294,0.0 -2.5638378,51.4423524,0.0 -2.5645137,51.442459400000004,0.0 -2.5645781,51.4423457,0.0 -2.5682099,51.4416168,0.0 -2.5692747,51.440811,0.0 -2.5699532,51.4396841,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Arnos Court Park to Redcatch Park</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5633094,51.4398162,0.0 -2.5629821,51.4387913,0.0 -2.5627059,51.4381794,0.0 -2.5628158,51.4380356,0.0 -2.5629339,51.43788510000001,0.0 -2.5629688,51.4377513,0.0 -2.5630277,51.437641,0.0 -2.5633013,51.4371193,0.0 -2.5639638,51.4365458,0.0 -2.5645807,51.436081,0.0 -2.5650394,51.4360827,0.0 -2.5652406,51.4360559,0.0 -2.5658333,51.43578,0.0 -2.5664824,51.4354473,0.0 -2.5668311000000004,51.4352567,0.0 -2.5672013,51.4350961,0.0 -2.5669545,51.4348721,0.0 -2.5670671,51.4348219,0.0 -2.5668204,51.4345677,0.0 -2.5666648,51.4343303,0.0 -2.566933,51.4341598,0.0 -2.5673729,51.4339892,0.0 -2.5680542,51.4337584,0.0 -2.5714177,51.4328321,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Line 25</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5714177,51.4328321,0.0 -2.5717127,51.4334909,0.0 -2.5718093,51.4339056,0.0 -2.5720453,51.4351898,0.0 -2.5720882,51.4353904,0.0 -2.5725389000000005,51.4354707,0.0 -2.5753927,51.4381994,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Arnos Vale non-wheeled path to Arnos Court Park</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5699532,51.4396841,0.0 -2.5698137,51.4392026,0.0 -2.5684619,51.4392427,0.0 -2.5667882,51.4392829,0.0 -2.5656885000000003,51.4392628,0.0 -2.5654149000000004,51.4392294,0.0 -2.5651145,51.4392427,0.0 -2.5646693,51.4393196,0.0 -2.564342,51.4393999,0.0 -2.5643098,51.43946760000001,0.0 -2.5642522,51.439501,0.0 -2.5641046,51.4395479,0.0 -2.5640161,51.439598,0.0 -2.5638632000000006,51.4396833,0.0 -2.5637372,51.43974930000001,0.0 -2.5636272,51.43981540000001,0.0 -2.5634904,51.4398296,0.0 -2.5633147,51.4398229,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Perrets Park to The Bommie</name>
+				<styleUrl>#line-A61B4A-4-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-2.5788099,51.4367448,0.0 -2.5790834,51.4362866,0.0 -2.5796628,51.4360592,0.0 -2.580328,51.4357783,0.0 -2.5806284,51.4356713,0.0 -2.5807759,51.4355994,0.0 -2.5804138,51.4353235,0.0 -2.580049,51.4350159,0.0 -2.5802851,51.4346213,0.0 -2.5805855,51.4342266,0.0 -2.5811327,51.4334708,0.0 -2.5813043,51.43327020000001,0.0 -2.5812346,51.4331364,0.0 -2.5810844,51.4330461,0.0 -2.5814116,51.4327618,0.0</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Viewpoints</name>
+			<Placemark>
+				<name>The Bommie Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5815671,51.4328873,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St Barnabus Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5828493,51.4309625,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Arnos Value Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5632691,51.439965,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nover's Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5973654,51.4287284,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Victoria Park Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5869799,51.4423992,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Withleight Road Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5632665,51.43710430000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Kenmare Rd Loookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5899785,51.4302435,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Perret's Park Lookout</name>
+				<styleUrl>#icon-1403-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.576294,51.4384134,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Bus/Train Stops</name>
+			<Placemark>
+				<name>Train Stop</name>
+				<styleUrl>#icon-1459-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5812936,51.4491395,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bus Stop</name>
+				<styleUrl>#icon-1423-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5735152,51.4401255,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Train Stop</name>
+				<styleUrl>#icon-1459-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5940931,51.4402191,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bus Stop</name>
+				<styleUrl>#icon-1423-nodesc</styleUrl>
+				<ExtendedData>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5980306,51.4360091,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Points of Interest</name>
+			<Placemark>
+				<name>Sparke Evans Park</name>
+				<description><![CDATA[<img src="https://b.geolocation.ws/img/023/249/216-T.jpg" height="200" width="auto" /><br><br>Sparkes Evans Park was donated to the people of Bristol in 1902 by two local tannery owners. There is a shelter to the left of the Park dating from 1925.]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://b.geolocation.ws/img/023/249/216-T.jpg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-2.5647498,51.4426399,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Untitled layer</name>
+		</Folder>
+		<Style id='icon-1403-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1403-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1403-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1403-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1403-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1423-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1423-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1423-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1423-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1423-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1459-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1459-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1459-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1459-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1459-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-777777-2-nodesc-normal'>
+			<LineStyle>
+				<color>ff777777</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-777777-2-nodesc-highlight'>
+			<LineStyle>
+				<color>ff777777</color>
+				<width>3.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-777777-2-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-777777-2-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-777777-2-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-795046-3-nodesc-normal'>
+			<LineStyle>
+				<color>ff465079</color>
+				<width>3</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-795046-3-nodesc-highlight'>
+			<LineStyle>
+				<color>ff465079</color>
+				<width>5.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-795046-3-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-795046-3-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-795046-3-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-795046-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff465079</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-795046-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff465079</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-795046-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-795046-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-795046-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-A61B4A-4-nodesc-normal'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>4</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-A61B4A-4-nodesc-highlight'>
+			<LineStyle>
+				<color>ff4A1BA6</color>
+				<width>6.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-A61B4A-4-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-A61B4A-4-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-A61B4A-4-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

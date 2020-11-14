@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bristol South Skyline Walk - Short</name>
+    <description>Discover the stunning views of the Bristol skyline with this trail across South Bristol.  More info can be found at www.bssw.org.uk</description>
+    <Style id="icon-1403-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1403-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1403-rec-vista-half.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1403-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1403-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1403-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1423-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1423-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1423-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1423-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1423-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1459-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1459-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1459-trans-train.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1459-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1459-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1459-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1469-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1469-trans-walking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1469-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1469-trans-walking.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1469">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1469-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1469-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-3906-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-4488-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>4.488</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-4488-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>6.732</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-4488-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-4488-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-4488-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-795046-4875-nodesc-normal">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-795046-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ff465079</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-795046-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-795046-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-795046-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Route</name>
+      <Placemark>
+        <name>St Lukes Road to Temple Meads</name>
+        <styleUrl>#line-795046-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.584747,51.4431307,0
+            -2.5845659,51.443409,0
+            -2.5847805,51.4438704,0
+            -2.5848341,51.4443185,0
+            -2.5847268,51.4446528,0
+            -2.584523,51.44482,0
+            -2.5845551,51.4450607,0
+            -2.5850487,51.4454084,0
+            -2.585628,51.4458698,0
+            -2.5845444,51.4463646,0
+            -2.5837076,51.4468327,0
+            -2.58286,51.4472941,0
+            -2.5827205,51.4473141,0
+            -2.5825703,51.4474546,0
+            -2.5823665,51.4476485,0
+            -2.5822806,51.4477956,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wheeled Access Alternative</name>
+        <styleUrl>#line-795046-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5753927,51.4381994,0
+            -2.5788099,51.4367448,0
+            -2.5800705,51.4366211,0
+            -2.5817871,51.4369956,0
+            -2.5839329,51.4376911,0
+            -2.5843191,51.4375039,0
+            -2.5857353,51.4379319,0
+            -2.5867224,51.4383064,0
+            -2.5885677,51.439002,0
+            -2.5898552,51.4396975,0
+            -2.5893402,51.4400453,0
+            -2.5896835,51.4404465,0
+            -2.5887018,51.4409146,0
+            -2.5879669,51.4414229,0
+            -2.5873017,51.4418576,0
+            -2.586937,51.4420849,0
+            -2.5864327,51.4423457,0
+            -2.5857031,51.4426667,0
+            -2.5854242,51.4428005,0
+            -2.5848877,51.4428607,0
+            -2.584747,51.4431307,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Wheeled Access Alternative</name>
+        <styleUrl>#line-795046-4488-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -2.5822806,51.4477956,0
+            -2.5806284,51.4469196,0
+            -2.5793409,51.4459032,0
+            -2.5785685,51.4446595,0
+            -2.5783539,51.4434157,0
+            -2.5780964,51.4423992,0
+            -2.577796,51.4417439,0
+            -2.5769591,51.4415433,0
+            -2.5755429,51.4409949,0
+            -2.5739765,51.4402593,0
+            -2.5728178,51.4390856,0
+            -2.5752639,51.4381794,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Viewpoints</name>
+      <Placemark>
+        <name>Victoria Park Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5869799,51.4423992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Perret's Park Lookout]]></name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5771094,51.4379854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wells Rd Lookout</name>
+        <styleUrl>#icon-1403-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5763516,51.4414521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bus/Train Stops</name>
+      <Placemark>
+        <name>Train Stop</name>
+        <styleUrl>#icon-1459-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5812936,51.4491395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bus Stop</name>
+        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5735152,51.4401255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Stop</name>
+        <styleUrl>#icon-1459-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5940931,51.4402191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Points of Interest</name>
+      <Placemark>
+        <name>Banana Bridge</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/0sb_CFjJ4Z95gkeCP0T6wiQ37oL92GjKRuDNJH4LD7PuFw6vkXlxbsDlUwjOWnt02OHvp6xILh5ubAFbzwTsnS1VymRz9AhbJVd7vRhedicBmOkaBmJmqvQaJg5CF2QUQpHxNA" height="200" width="auto" /><br><br>The Banana Bridge was originally used as a temporary<br>bridge elsehwere but floated by barge to this location<br>in the 1880’s. It is painted yellow because called the<br>Banana Bridge.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/0sb_CFjJ4Z95gkeCP0T6wiQ37oL92GjKRuDNJH4LD7PuFw6vkXlxbsDlUwjOWnt02OHvp6xILh5ubAFbzwTsnS1VymRz9AhbJVd7vRhedicBmOkaBmJmqvQaJg5CF2QUQpHxNA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5853062,51.4456625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>River Avon</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/Rvq71DGDvKjI1Y0AqAbJL7vOJITz96OxKbS1fCH9jLlFAjhQr-KW1JATJaRb8kyHmHDQZKw0K_0H9qLKI_F75s9KcUmZ_j0GKdalrMGT0_A5BIdbgraCqWk_4ady9AqpH9QRGQ" height="200" width="auto" /><br><br>River Avon – flows from Wiltshire to the River Severn.<br>Along the way it passes through Bath before arriving<br>here in Bristol. At this point it is known as the Cut (or<br>New Cut) due to the route of the river being diverted<br>in 1809. It is tidal so will have muddy banks at points<br>during the day]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/Rvq71DGDvKjI1Y0AqAbJL7vOJITz96OxKbS1fCH9jLlFAjhQr-KW1JATJaRb8kyHmHDQZKw0K_0H9qLKI_F75s9KcUmZ_j0GKdalrMGT0_A5BIdbgraCqWk_4ady9AqpH9QRGQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5830209,51.4468728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perrets Park</name>
+        <description><![CDATA[Opened in 1932, named after a local councillor<br>Human Sundial mosaic added in 2012. Stand in the middle and your shadow will tell the time.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5758648,51.4383867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Three Lamps Finger Post</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/O5QLjxl0qB7usWIQPGaIICexiq4PBCum5SUbqfnsVdX_aGQVp0zwgeVkWDGB_rrinWePHENTgcuJxLbDSBdh0zK2fr_j4IHU4gzPa11OjRsp19WqB4rd2IfT7QUob2q_6DVntw" height="200" width="auto" /><br><br>The three lamps Finger Post was installed in 1830. It was removed in 1931 to make way for a new road system, but fully restored in 1984.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/O5QLjxl0qB7usWIQPGaIICexiq4PBCum5SUbqfnsVdX_aGQVp0zwgeVkWDGB_rrinWePHENTgcuJxLbDSBdh0zK2fr_j4IHU4gzPa11OjRsp19WqB4rd2IfT7QUob2q_6DVntw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -2.5781178,51.4440443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Victoria Park</name>
+        <description><![CDATA[In a 1871 report, "The Cry of the Poor" pleaded with he authorities to turn the land into a park and eventually the park opened in 1891. <br>The water maze was built in 1894 to signify where a new sewer crosses the medieval pipe from the Northern Slopes. The design is hte same as the Maze Boss on St Mary Redcliffe Church. ]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5859928,51.4385472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Directions</name>
+      <Placemark>
+        <name>Directions from Temple Meads</name>
+        <description>Exit the main station and continue down the ramp to the main road. Turn left on the main road (Temple Gate)  and follow the main road (A4) up the hill.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5811648,51.4495608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Exit Perretts Park</name>
+        <description>Exit the park and continue along the pavement to the roundabout. Take the third exit onto Sylvia Avenue. Continue Down the hill.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.578075,51.4372096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Perrets Park</name>
+        <description>Enter Perretts Park and turn left following the path along the top of hill. Look out for the panorama interpreting the views of the city.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5751352,51.4385204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park View Point</name>
+        <description>After the viewpoint, contrinue down the hill and exit the park by the basketball court.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5862771,51.4424494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions St Lukes Road</name>
+        <description>Exit the park, turn left under the bridge. Continue to the end of the road.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5846303,51.443516,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Banana Bridge</name>
+        <description>Cross the main road and use the Banana bridge to cross the river. Turn right after the bridge.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5849736,51.4454151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Temple Gate</name>
+        <description>Cross at the pedestrian crossing to join the start of the walk. We hope you enjoyed it.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5826829,51.4473408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Directions St John's Lane]]></name>
+        <description><![CDATA[Cross St John's Lane at the pedestrian crossing. Take Park Avenue opposite and continue to find Victoria Park.]]></description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5836325,51.4376644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Wells Rd</name>
+        <description>Cross the A4 Bath Road at the junction with the A37 Wells Road.  Join the A37 continuing up the hill</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5785685,51.4449136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Wells Rd Crossing</name>
+        <description><![CDATA[Cross the Wells Rd at the crossing, then take Crowndale Rd. Continue to find Perrett's Park.]]></description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5729465,51.4392427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park Entrance</name>
+        <description>Enter the park either at the foot or top of Nutgrove Avenue heading to the park lodge up the hill</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5855851,51.4380389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Directions Victoria Park Lodge</name>
+        <description>Follow the path behind the park lodge across the top of the hill heading past the bowling green, tennis courts and school.</description>
+        <styleUrl>#icon-1469</styleUrl>
+        <Point>
+          <coordinates>
+            -2.5898123,51.4404599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

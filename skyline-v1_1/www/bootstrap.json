@@ -1,0 +1,16 @@
+{
+	"platform": "dev",
+	"app_version": "1.1",
+	"live":
+	{
+		"map_endpoint": "http://www.webdevelopment.co.uk"
+	},
+	"staged":
+	{
+		"map_endpoint": "http://www.webdevelopment.co.uk"
+	},
+	"dev":
+	{
+		"map_endpoint": "http://bssw.org.uk/skylineTest"
+	}
+}

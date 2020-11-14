@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />		
+		<meta charset="utf-8">
+		<title>Skyline</title>
+		
+		<!-- Core assets -->
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+		<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />			
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/BSSWLeaflet.css" /> 
+		<link rel="stylesheet" href="LocatePlugin/dist/L.Control.Locate.min.css" /> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>   			
+		<script src="js/BSSWLeaflet.js"></script>	 		
+		<script src="LocatePlugin/dist/L.Control.Locate.min.js"></script>	 		
+		<script src="cordova.js"></script>		
+	</head>
+	<body>		
+		<div data-role="page" id="main-page">			
+			<div data-role="main" class="ui-content">				
+				<div class="welcomeheader">				
+				</div>
+				<div class="welcomemessage" id="welcomemessage">
+					<div class="welcomecenter" id="welcomecenter">
+						<p><h1>Welcome to the Bristol South Skyline Walk</h1></p>
+						<p><h2>Start your journey of discovery</h2></p>
+						<p><h2>Select one of our walks below</h2></p>
+					</div>
+				</div>																
+				<div id="main-page-map-buttons"></div>
+			</div>
+		
+		</div>								
+		
+					
+		<div data-role="page" id="map-page">						
+			<header id="#mapTitleBar" data-role="header" data-theme="b">				
+				<a class="openbtn" data-role="button" onclick="openNav()"  >&#9776;</a>													
+				<h1 id="mapTitle">Skyline</h1>				
+				<a href="#main-page" data-role="button" class="ui-btn-right" data-icon="home" data-iconpos="notext" ></a>
+			</header>			
+				<div id="myNav" class="overlay">
+					<div  id ="overlayHeader" class="overlay-header">						
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					</div>					
+					<!-- Overlay content -->
+					<div id="overlayContent" class="overlay-content">			
+					</div>					
+				</div>	
+				<div class="container">		
+					<div id="map"></div>  
+					<button class="pure-button pure-button-primary">Get my location</button>  
+				</div>	
+			</div>		
+		</div>		
+		<script>
+        var map = L.map('map').setView([51.436782, -2.581444], 14);
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attributionControl: false,            
+			id: 'mapbox/streets-vll'
+            }).addTo(map);				 
+		
+		console.log("Add locate");
+		L.control.locate({
+       locateOptions: {
+               enableHighAccuracy: true
+		}}).addTo(map);						
+
+        map.on('click', function (e) {
+            lat = e.latlng.lat;
+            lon = e.latlng.lng;
+            ProcessClick(lat, lon)
+        });
+			
+    </script>		
+	</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Bristol South Skyline Walk",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,354 @@
+
+#map-page, #map-page-map-canvas, #map-page-route-two, #map-page-map-canvas-route-two { width: 100%; height: 100%; padding: 0; }
+
+.selected { font-weight: bold; }
+
+
+
+.ui-mobile label, .ui-controlgroup-label {
+    display: inline;    
+}
+
+.routeStartLink {
+	background: #9bce78;
+	border: 0px;
+	color: white;
+	box-shadow: none;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 5px;
+	vertical-align: middle;
+	padding: 1px,6px;
+ }
+ 
+.ui-content {
+	background-color: black;
+	padding: 3px;
+}
+
+.playedMarker{
+	color: #078ca3 !important;
+	}
+
+.layer-checkbox{
+	width:0;
+	text-align: right;	
+}
+
+
+.welcomecenter{
+	padding: 20px;
+}
+
+.welcomemessage{			
+	background: url("img/butterfly.jpg")	
+		no-repeat center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;       
+    
+	background-color:#9de8c4; 
+	text-align: center; 	
+	padding: 0px;
+	/*border: 20px; */
+	height: auto;	
+	width: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-weight: normal;
+	margin-bottom: 3px;
+	border-radius: 10px;
+	
+}
+
+.welcomemessage p{
+	display: inline;    
+	padding: 0px;	
+	border: 0px;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+.welcomemessage h1{	
+	color: white;
+	display: inline;    
+	padding: 0px;
+	border: 0px;	
+	font-weight: normal;
+	text-shadow: none;
+}
+
+.welcomemessage h2{	
+	color: white;		
+	font-weight: normal;
+	text-shadow: none;
+}
+
+
+.welcomefeaturelist{
+	text-align: left;
+}
+.welcomemapbutton{
+	background-color:white;
+	border-radius: 10px; 
+	padding: 20px;
+	margin-bottom: 3px;	
+}
+
+
+
+nav {
+    position: fixed;
+    height: 50px;
+    line-height: 50px;   
+    top: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.HomeImage {
+	position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    margin-top: 1em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: green;
+}
+
+.container {
+    position: fixed;
+    top: 45px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;  
+    vertical-align: top;
+}
+
+#map {
+    height: 100%;
+    width: 100%;    
+    float: left;
+}
+
+
+.layerItems {
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  float:left;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.navbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.layer-label input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.layer-slider {
+  position: relative;
+  float: right;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+  width : 40px;
+  background-color: grey;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.layer-slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+   border-radius: 50%;
+}
+
+.titlebar{
+	height:50px;
+	margin:0px;
+	padding:0px;
+}
+
+.titlebar a{	
+	margin:0px;	
+}
+input:checked + .layer-slider {
+  background-color: green;
+}
+
+input:focus + .layer-slider {
+  box-shadow: 0 0 1px grey;
+}
+
+input:checked + .layer-slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+
+.overlay-header{
+	display: inline;	
+	color: #818181;
+	text-decoration: none;
+	font-size: 16px;
+	text-shadow: none;
+	height:20px;
+}
+
+.overlay-checkbox{
+	color: #818181;
+	margin-bottom: 8px;
+	text-align: center;	
+}
+
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 50px; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: left; /* Centered text/links */
+  margin-top: 15px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  text-shadow: none;
+}
+
+
+.overlay-content a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: inline;  
+  transition: 0.3s;    
+}
+
+
+
+.overlay-content .layerHeader{    
+    text-align:center;
+}
+
+.overlay-content .layerHeader a {
+    padding: 8px 8px 8px 8px;  
+    
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;  
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: inline; 
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {    
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.overlay .layerItems img {
+    width: 20px;
+    height: 20px;
+    vertical-align:middle;
+}
+  
+
+.overlay .layerItems a {
+    padding: 2px 2px 2px 2px;         
+}
+
+.overlay .layerItems ul {
+    padding-left: 0px;
+}
+
+.overlay .layerItems li {
+    border: 0px solid white; 
+}
+
+.overlay .linediv {
+    white-space:nowrap;
+}
